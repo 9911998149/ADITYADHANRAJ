@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>hack learning</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: #15e3e3;
+        margin: 0px;
+        padding: 0px;
+        background: url('ad.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid rgb(246, 84, 3);
+        position: absolute;
+        left: 15px;
+        top: 11px;
+    }
+
+    .left img {
+        width: 97px;
+        filter: invert(0%);
+    }
+
+    .left div {
+        line-height: 29px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .mid {
+        display: inline;
+
+        margin: 20px 274px;
+        border: 2px solid white;
+    }
+
+    .right {
+        position: absolute;
+        right: 18px;
+        top: 11px;
+        display: inline-block;
+        border: 2px solid green;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: red;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: rgb(87, 61, 112);
+        color: red;
+        padding: 7px 11px;
+        border: 2px solid red;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: blue;
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+    display: block;
+    width: 430px;
+    padding: 2px;
+    border: 2px slid black;
+    margin: 3px auto;
+    font-size: 20px;
+    border-radius: 27px
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 98%;
+        margin: 11px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--LEFT BOX FOR LOGO -->
+        <div class="left">
+            <img src="img.jpg" alt="">
+            <div>Aditya hacking </div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">HACKING CENTER</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <!-- Right for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best hacking class in Delhi</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your  name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
